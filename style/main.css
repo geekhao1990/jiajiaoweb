@@ -1,0 +1,79 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{ font: 13px/150% Arial,Verdana,"weiruanyahei";color: #666; background:url(../images/beijing.gif);}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+a{text-decoration:none;}
+.rev{ position:relative;}
+.abs{ position:absolute;}
+
+.container{	
+	width:637px;
+	margin:10px auto;
+	background:#fff;
+	border-radius:20px;
+	padding:8px 30px;
+	
+}
+.center td{ background:url(../images/beijin1.gif);}
+.ul{ right:10px; bottom:0px;}
+.ul a{ margin-left:10px; color:#FF0099;}
+.BigTable{
+	border-color:#ccc;
+}
+.BigTable .center p{ text-align:center;}
+.BigTable tr td:nth-of-type(1){
+	width:148px;
+	text-align:right;
+}
+.BigTable td[colspan],.tableBorder td {
+	width:100%;
+	text-align: left !important;
+}
+.topic{
+	font-weight:bold;
+	color:#000;
+	font-size:18px;
+	line-height:50px;
+	width:25%;
+	margin:0 auto;
+}
+
+.red{
+	color:red;
+}
+.blue{
+	color:blue;
+}
+.smallTitle{
+	font-size: 14px;
+	line-height: 150%;
+	color:blue;
+	background:#eee;
+	font-weight:bold;
+}
+.submitfather{
+	height:100px;
+	width:100%;
+display: -webkit-box;
+display: -moz-box;
+display: box;
+
+-webkit-box-pack: center;
+-moz-box-pack: center;
+box-pack: center;
+
+-webkit-box-align: center;
+-moz-box-align: center;
+box-align: center;
+}
+[type='submit']{
+	font-size:18px;
+	line-height:20px;
+	border:1px solid #09F;
+	font-family:"weiruanyahei";
+	padding:3px 30px;
+	text-align:center;
+}
+.footer{ text-align:center;
+margin:10px 0;}
